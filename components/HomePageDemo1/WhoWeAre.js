@@ -29,14 +29,17 @@ const WhoWeAre = () => {
               >
                 <span>WHO WE ARE</span>
                 <h3>
-                  We Are <b>All In One</b> IT Solution & Technology Company
+                  {/* We Are <b>All In One</b> IT Solution & Technology Company */}
+                  Innovators and Strategists in the Technological Arena
                 </h3>
                 <p>
-                  We are leading technology solutions providing company all over
-                  the world doing over 40 years lorem ipsum dolor sit amet.
+                  At Innoclique, we're more than just a technology firm; we're a dynamic team of innovators and strategists dedicated to redefining the way businesses interact with technology.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Our expertise spans from crafting cutting-edge solutions in AI, Hyper Automation, and Data Analytics to providing strategic staffing services that ensure you have the right talent to drive your projects forward. Each solution we offer is infused with our passion for excellence and our commitment to your success.
+                </p>
+                <p>
+                  As partners in your technological journey, we're here to ensure that every step you take is a leap towards a more efficient and innovative future. Embark on this journey with us, and let's create lasting impact together.
                 </p>
                 <div className="about-btn">
                   <Link href="/about">

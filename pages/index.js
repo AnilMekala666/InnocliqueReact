@@ -36,7 +36,7 @@ export default function Home() {
       <Testimonials />
 
       <div className="m-2 bor-radius-15">
-        <PricingTable className="rounded-4" />
+        {/* <PricingTable className="rounded-4" /> */}
       </div>
 
       <Article />
