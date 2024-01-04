@@ -9,16 +9,18 @@ const WhyChooseUs = () => {
           <div className="section-title">
             <span>WHY CHOOSE US</span>
             <h2>
-              We Help You To <b>Increase</b> Your Sale Through Solutions
+              {/* We Help You To <b>Increase</b> Your Sale Through Solutions */}
+              Innovating Beyond Boundaries
             </h2>
             <p>
-              We are leading technology solutions providing company all over the
-              world doing over 40 years lorem ipsum dolor sit amet.
+              {/* We are leading technology solutions providing company all over the
+              world doing over 40 years lorem ipsum dolor sit amet. */}
+              Choose Innoclique for transformative solutions that merge cutting-edge technology with strategic foresight, ensuring your business is not just prepared for the future but actively shaping it.
             </p>
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div
                 className="single-choose-card"
                 data-aos="fade-up"
@@ -36,18 +38,20 @@ const WhyChooseUs = () => {
                 <div className="choose-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Mobile Apps</a>
+                      {/* <a>Mobile Apps</a> */}
+                      <a>Innovative & Forward-Thinking</a>
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
-                    nonumy eirm od tempor invidunt ut labore.
+                    {/* Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
+                    nonumy eirm od tempor invidunt ut labore. */}
+                    At Innoclique, innovation is not just a buzzword; it's our ethos. We continuously evolve, ensuring you're always several steps ahead.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div
                 className="single-choose-card"
                 data-aos="fade-up"
@@ -65,18 +69,18 @@ const WhyChooseUs = () => {
                 <div className="choose-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Branding Strategy</a>
+                      {/* <a>Branding Strategy</a> */}
+                      <a>Solution-Oriented & Reliable</a>
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
-                    nonumy eirm od tempor invidunt ut labore.
+                  We don't just identify problems; we craft solutions. Our team is dedicated to providing reliable, effective strategies that drive your business forward.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div
                 className="single-choose-card"
                 data-aos="fade-up"
@@ -94,18 +98,18 @@ const WhyChooseUs = () => {
                 <div className="choose-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Graphic Design</a>
+                      {/* <a>Graphic Design</a> */}
+                      <a>Approachable & Professional</a>
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
-                    nonumy eirm od tempor invidunt ut labore.
+                  While we're experts in technology, we speak your language. Our team is here to guide you through the complexities of digital transformation in a friendly, approachable manner.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div
                 className="single-choose-card"
                 data-aos="fade-up"
@@ -132,7 +136,7 @@ const WhyChooseUs = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

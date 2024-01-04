@@ -179,7 +179,9 @@ const Footer = () => {
           <div className="container">
             <div className="copyright-area-content">
               <p>
-                &copy; Stax is Proudly Owned by {' '}
+                {/* &copy; Stax is Proudly Owned by {' '} */}
+                Innoclique: Your partner in technological evolution. Together, let's redefine the boundaries of what's possible.
+
                 <a
                   href="https://envytheme.com/"
                   target="_blank"
