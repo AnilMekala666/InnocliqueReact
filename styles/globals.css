@@ -116,6 +116,8 @@ p {
   font-weight: 500;
   font-family: var(--main-font-family);
   font-size: var(--font-size);
+  text-align: justify;      
+  /* text-align-last: justify;  */
 }
 p:last-child {
   margin-bottom: 0;
@@ -1097,6 +1099,8 @@ Services Area CSS
   margin-bottom: 25px;
   position: relative;
   transition: var(--transition);
+  width: 300px;
+  
 }
 .services-item .services-image {
   overflow: hidden;

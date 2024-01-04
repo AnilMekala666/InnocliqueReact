@@ -9,7 +9,7 @@ const PricingTable = () => {
           <div className="section-title">
             <span>PRICING</span>
             <h2>
-              Our <b>Pricing</b> For All Type Of Technology Services
+              Our <b>Pricing</b> For All Type Of Technology Services 11
             </h2>
             <p>
               We are leading technology solutions providing company all over the
