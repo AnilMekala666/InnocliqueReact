@@ -36,7 +36,7 @@ const ServiceSlider = () => {
             <div className="col-lg-8 col-md-12">
               <Swiper
                 slidesPerView={1}
-                spaceBetween={30}
+                spaceBetween={100}
                 pagination={{
                   clickable: true,
                 }}
@@ -73,15 +73,18 @@ const ServiceSlider = () => {
                     <div className="services-content">
                       <h3>
                         <Link href="/services/service-details">
-                          <a>Software Development</a>
+                          <a> Technology Innovation & Development</a>
                         </Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet con setetur sadipscing elitr
-                        sed…
+                        "Pioneering with Precision" Explore the frontier of
+                        technology with our AI, automation, and custom software
+                        solutions. We're dedicated to transforming your business
+                        challenges into innovative success stories.Engage Now:
+                        "Innovate Today →"...
                       </p>
                       <Link href="/services/service-details">
-                        <a className="services-btn">View More</a>
+                        <a className="services-btn">Innovate Today</a>
                       </Link>
                     </div>
                   </div>
@@ -102,12 +105,15 @@ const ServiceSlider = () => {
                     <div className="services-content">
                       <h3>
                         <Link href="/services/service-details">
-                          <a>App Development</a>
+                          <a>Strategic IT Consulting & Solutions</a>
                         </Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet con setetur sadipscing elitr
-                        sed…
+                        "Navigating Complexity, Delivering Clarity "Our
+                        strategic consulting and comprehensive solutions
+                        demystify the complexities of IT. Let us guide your
+                        technology journey with insight, experience, and
+                        tailored strategies.Discover How: "Strategize Now →"...
                       </p>
                       <Link href="/services/service-details">
                         <a className="services-btn">View More</a>
@@ -131,12 +137,15 @@ const ServiceSlider = () => {
                     <div className="services-content">
                       <h3>
                         <Link href="/services/service-details">
-                          <a>Web Development</a>
+                          <a>Comprehensive Staffing & Talent Management</a>
                         </Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet con setetur sadipscing elitr
-                        sed…
+                        "Empower Your Team, Elevate Your Potential " Bridge the
+                        talent gap with our strategic staffing and team
+                        extension services. Access the expertise needed to
+                        propel your projects and achieve your business
+                        objectives. Connect Today: "Enhance Your Team →"...
                       </p>
                       <Link href="/services/service-details">
                         <a className="services-btn">View More</a>
@@ -160,12 +169,15 @@ const ServiceSlider = () => {
                     <div className="services-content">
                       <h3>
                         <Link href="/services/service-details">
-                          <a>Analytic Solutions</a>
+                          <a>Cost-Effective Managed Services</a>
                         </Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet con setetur sadipscing elitr
-                        sed…
+                        "Efficiency Enhanced, Costs Contained" Embrace
+                        operational excellence with our managed services. From
+                        infrastructure management to ongoing support, we ensure
+                        your business runs smoothly at reduced costs.Learn More:
+                        "Optimize Now →""...
                       </p>
                       <Link href="/services/service-details">
                         <a className="services-btn">View More</a>
