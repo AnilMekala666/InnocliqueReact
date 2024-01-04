@@ -808,7 +808,7 @@ Main Banner Area CSS
 Partner Area CSS
 =================================================*/
 .partner-area {
-  background-image: url(/images/partner/partner-bg.jpg);
+  /* background-image: url(/images/partner/partner-bg.jpg); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

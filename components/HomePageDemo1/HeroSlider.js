@@ -27,14 +27,6 @@ const HeroSlider = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-7 col-md-12">
                     <div className="main-slides-content">
-                      <span
-                        data-aos="fade-right"
-                        data-aos-delay="70"
-                        data-aos-duration="700"
-                        data-aos-once="true"
-                      >
-                        WE ARE LEADING TECHNOLOGY SOLUTIONS PROVIDING COMPANY!
-                      </span>
                       <h1
                         data-aos="fade-right"
                         data-aos-delay="70"
@@ -91,14 +83,6 @@ const HeroSlider = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-7 col-md-12">
                     <div className="main-slides-content">
-                      <span
-                        data-aos="fade-right"
-                        data-aos-delay="70"
-                        data-aos-duration="700"
-                        data-aos-once="true"
-                      >
-                        WE ARE LEADING TECHNOLOGY SOLUTIONS PROVIDING COMPANY!
-                      </span>
                       <h1
                         data-aos="fade-right"
                         data-aos-delay="70"
@@ -155,14 +139,6 @@ const HeroSlider = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-7 col-md-12">
                     <div className="main-slides-content">
-                      <span
-                        data-aos="fade-right"
-                        data-aos-delay="70"
-                        data-aos-duration="700"
-                        data-aos-once="true"
-                      >
-                        WE ARE LEADING TECHNOLOGY SOLUTIONS PROVIDING COMPANY!
-                      </span>
                       <h1
                         data-aos="fade-right"
                         data-aos-delay="70"
@@ -221,14 +197,6 @@ const HeroSlider = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-7 col-md-12">
                     <div className="main-slides-content">
-                      <span
-                        data-aos="fade-right"
-                        data-aos-delay="70"
-                        data-aos-duration="700"
-                        data-aos-once="true"
-                      >
-                        WE ARE LEADING TECHNOLOGY SOLUTIONS PROVIDING COMPANY!
-                      </span>
                       <h1
                         data-aos="fade-right"
                         data-aos-delay="70"
