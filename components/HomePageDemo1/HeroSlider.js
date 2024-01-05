@@ -33,7 +33,7 @@ const HeroSlider = () => {
                         data-aos-duration="700"
                         data-aos-once="true"
                       >
-                        Transform Your Business with the Power of AI & Hyper Automation
+                        <strong style={{ fontWeight: '400' }}>Transform Your Business with the</strong> Power of AI & Hyper Automation
                       </h1>
                       <p
                         data-aos="fade-right"
@@ -69,7 +69,7 @@ const HeroSlider = () => {
                     data-aos-once="true"
                   >
                     <div className="main-slides-image">
-                      <img src="/images/home-slides/slides-1.png" alt="image" />
+                      <img src="/images/Banner/BanImg1.png" alt="BanImg1" />
                     </div>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const HeroSlider = () => {
                         data-aos-duration="700"
                         data-aos-once="true"
                       >
-                        Unleash Potential, Drive Growth with Cutting-Edge Technology Solutions
+                        <strong style={{ fontWeight: '400' }}>Unleash Potential, Drive Growth with</strong> Cutting-Edge Technology Solutions
                       </h1>
                       <p
                         data-aos="fade-right"
@@ -125,7 +125,7 @@ const HeroSlider = () => {
                     data-aos-once="true"
                   >
                     <div className="main-slides-image">
-                      <img src="/images/home-slides/slides-2.png" alt="image" />
+                      <img src="/images/Banner/BanImg2.png" alt="BanImg2" />
                     </div>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ const HeroSlider = () => {
                         data-aos-duration="700"
                         data-aos-once="true"
                       >
-                        Empowering Your Business with Affordable, Advanced Tech Solutions
+                        <strong style={{ fontWeight: '400' }}>Empowering Your Business with</strong> Affordable, Advanced Tech Solutions
                       </h1>
                       <p
                         data-aos="fade-right"
@@ -183,7 +183,7 @@ const HeroSlider = () => {
                     data-aos-once="true"
                   >
                     <div className="main-slides-image">
-                      <img src="/images/home-slides/slides-2.png" alt="image" />
+                      <img src="/images/Banner/BanImg3.png" alt="BanImg3" />
                     </div>
                   </div>
                 </div>
@@ -203,7 +203,7 @@ const HeroSlider = () => {
                         data-aos-duration="700"
                         data-aos-once="true"
                       >
-                        Maximize Efficiency with Our Infra + Dev Solutions
+                        <strong style={{ fontWeight: '400' }}>Maximize Efficiency with</strong> Our Infra + Dev Solutions
                       </h1>
                       <p
                         data-aos="fade-right"
@@ -240,7 +240,7 @@ const HeroSlider = () => {
                     data-aos-once="true"
                   >
                     <div className="main-slides-image">
-                      <img src="/images/home-slides/slides-2.png" alt="image" />
+                      <img src="/images/Banner/BanImg4.png" alt="BanImg4" />
                     </div>
                   </div>
                 </div>

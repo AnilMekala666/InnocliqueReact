@@ -14,7 +14,13 @@ Footer Area CSS
   overflow: hidden;
 }
 .footer-area.with-black-background {
-  background-color: var(--black-color);
+  background-color: #051433;
+  background-image: url(/images/footer/FooterBg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
   overflow: hidden;
 }
 

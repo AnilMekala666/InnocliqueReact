@@ -17,13 +17,15 @@ const ServiceSlider = () => {
                 data-aos-duration="800"
                 data-aos-once="true"
               >
-                <span>SERVICES</span>
+                <span style={{ color: '#ffffff' }}>SERVICES</span>
                 <h3>
-                  We Provide the Best Quality <b>Services</b>
+                  <strong  style={{ fontWeight: '400' }}>Tailored Solutions to </strong> Propel Your Business
                 </h3>
                 <p>
-                  We are technology solutions providing company all over the
-                  world doing over 40 years.
+                At Innoclique, we offer a comprehensive suite of services 
+                designed to address the multifaceted needs of modern businesses. 
+                From innovative technology solutions to strategic staffing, each service we 
+                provide is aimed at enhancing your operations and driving your business forward.
                 </p>
                 <div className="services-section-btn">
                   <Link href="/services/services">

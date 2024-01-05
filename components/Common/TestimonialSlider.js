@@ -5,7 +5,7 @@ import { Pagination, Autoplay } from "swiper";
 const TestimonialSlider = () => {
   return (
     <>
-      <div className="testimonials-area ptb-100">
+      <div className="testimonials-area ptb-100 d-none">
         <div className="container-fluid">
           <div className="section-title">
             <span>TESTIMONIALS</span>

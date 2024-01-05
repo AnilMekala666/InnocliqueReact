@@ -6,7 +6,7 @@ import { Autoplay, Navigation } from "swiper";
 const ProjectSlider = () => {
   return (
     <>
-      <div className="projects-area with-black-background pb-100">
+      <div className="projects-area with-black-background pb-100  d-none">
         <div className="container-fluid">
           <div className="section-title">
             <span>PROJECTS</span>

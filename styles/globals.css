@@ -65,7 +65,8 @@ Default CSS
 =================================================*/
 :root {
   --main-font-family: "Open Sans", sans-serif;
-  --heading-font-family: "Jost", sans-serif;
+  /* --heading-font-family: "Jost", sans-serif; */
+  --heading-font-family:'Montserrat', sans-serif;
   --monoton-font-family: "Monoton", cursive;
   --main-color: #0966ad;
   --optional-color: #3e019a;
@@ -177,7 +178,7 @@ h5,
 h6 {
   color: var(--black-color);
   font-family: var(--heading-font-family);
-  font-weight: 900;
+  font-weight: 700;
 }
 .h1:last-child,
 .h2:last-child,
@@ -205,7 +206,7 @@ Default Btn CSS
   padding: 15.8px 35px;
   text-align: center;
   /* color: var(--black-color) !important; */
-  color: #ffffff;
+  color: #0966ad;
   font-size: var(--font-size);
   font-weight: 600;
   transition: var(--transition);
@@ -215,7 +216,8 @@ Default Btn CSS
   position: relative;
   border-radius: 10px;
   z-index: 0;
-  background: var(--btn-gradient-color);
+  /* background: var(--btn-gradient-color); */
+  background: #fff;
   box-shadow: none;
   overflow: hidden;
   white-space: nowrap;
@@ -241,6 +243,27 @@ Default Btn CSS
   color: var(--white-color);
 }
 .default-btn:hover:before {
+  transition: transform 1s;
+  transform: translateX(-45%) translateY(0) scale(1);
+  transform-origin: bottom center;
+}
+
+.default-btn1{
+  background: #0966ad;
+  border: 1px solid #0966ad;
+  color: #fff;
+
+  &:before {
+    background-color: #ffffff;
+  }
+ 
+}
+.default-btn1:hover {
+  color: #0966ad;
+  border: 1px solid #0966ad;
+  background: #ffffff;
+}
+.default-btn1:hover:before {
   transition: transform 1s;
   transform: translateX(-45%) translateY(0) scale(1);
   transform-origin: bottom center;
@@ -429,10 +452,11 @@ Main Slides Area CSS
   font-family: var(--heading-font-family);
 }
 .main-slides-content h1 {
-  font-size: 85px;
+  font-size: 80px;
   margin-bottom: 0;
   color: var(--white-color);
   position: relative;
+  font-weight: 700;
 }
 .main-slides-content p {
   margin-top: 18px;
@@ -837,10 +861,10 @@ Partner Area CSS
   opacity: 0;
   visibility: hidden;
 }
-.partner-card a:hover img:nth-child(1) {
+/* .partner-card a:hover img:nth-child(1) {
   opacity: 0;
   visibility: hidden;
-}
+} */
 .partner-card a:hover img:nth-child(2) {
   opacity: 1;
   visibility: visible;
