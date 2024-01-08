@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
 
 const IntroVideo = () => {
   return (
@@ -13,15 +12,11 @@ const IntroVideo = () => {
           data-aos-once="true"
         >
           <div className="video-image">
-          <ReactPlayer
-            url="video/InnociqueVideo.mp4"
-            controls
-            width="100%"
-            height="100%"
-          />
+            <video controls width="100%" height="100%">
+              <source src="/video/InnociqueVideo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-
-         
         </div>
       </div>
     </div>
