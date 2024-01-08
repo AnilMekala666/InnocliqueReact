@@ -73,6 +73,15 @@ const Footer = () => {
                       <i className="ri-instagram-line"></i>
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

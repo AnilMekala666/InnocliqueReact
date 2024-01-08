@@ -9,12 +9,9 @@ const WhyChooseUs = () => {
           <div className="section-title">
             <span>WHY CHOOSE US</span>
             <h2>
-              {/* We Help You To <b>Increase</b> Your Sale Through Solutions */}
               Innovating Beyond Boundaries
             </h2>
             <p>
-              {/* We are leading technology solutions providing company all over the
-              world doing over 40 years lorem ipsum dolor sit amet. */}
               Choose Innoclique for transformative solutions that merge cutting-edge technology with strategic foresight, ensuring your business is not just prepared for the future but actively shaping it.
             </p>
           </div>
@@ -31,7 +28,7 @@ const WhyChooseUs = () => {
                 <div className="choose-image">
                   <Link href="/services/service-details">
                     <a>
-                      <img src="/images/choose/choose-1.png" alt="image" />
+                      <img src="/images/choose/choose-1.jpg" alt="image" />
                     </a>
                   </Link>
                 </div>
@@ -62,7 +59,7 @@ const WhyChooseUs = () => {
                 <div className="choose-image">
                   <Link href="/services/service-details">
                     <a>
-                      <img src="/images/choose/choose-2.png" alt="image" />
+                      <img src="/images/choose/choose-2.jpeg" alt="image" />
                     </a>
                   </Link>
                 </div>
@@ -91,7 +88,7 @@ const WhyChooseUs = () => {
                 <div className="choose-image">
                   <Link href="/services/service-details">
                     <a>
-                      <img src="/images/choose/choose-3.png" alt="image" />
+                      <img src="/images/choose/choose-3.jpeg" alt="image" />
                     </a>
                   </Link>
                 </div>
