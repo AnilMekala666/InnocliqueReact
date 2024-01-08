@@ -37,7 +37,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/company/innoclique-congitive-technologies-pvt-ltd/posts/?feedView=all"
                       target="_blank"
                       rel="noreferrer"
                     >
