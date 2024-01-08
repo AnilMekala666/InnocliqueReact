@@ -20,7 +20,7 @@ Footer Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   overflow: hidden;
 }
 
