@@ -11,7 +11,7 @@ const Article = () => {
           <div className="section-title">
             <span>ARTICLE</span>
             <h2>
-              Read Our Blog To Get All Recent Tech <b>News</b>
+              <strong style={{ fontWeight: '400' }}>Read Our Blog To Get All Recent Tech</strong> News
             </h2>
           </div>
 

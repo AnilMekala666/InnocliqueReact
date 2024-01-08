@@ -27,7 +27,7 @@ export default function Home() {
 
       <WhyChooseUs />
 
-      <div className="mb-minus-100">
+      <div className="">
         <IntroVideo />
       </div>
 

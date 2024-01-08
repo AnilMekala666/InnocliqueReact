@@ -4,7 +4,7 @@ import Link from "next/link";
 const WhoWeAre = () => {
   return (
     <>
-      <div className="about-area ptb-100">
+      <div className="about-area ptb-100 border-top">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -29,8 +29,7 @@ const WhoWeAre = () => {
               >
                 <span>WHO WE ARE</span>
                 <h3>
-                  {/* We Are <b>All In One</b> IT Solution & Technology Company */}
-                  Innovators and Strategists in the Technological Arena
+                <strong style={{ fontWeight: '400' }}>Innovators and Strategists in the </strong>Technological Arena
                 </h3>
                 <p>
                   At Innoclique, we're more than just a technology firm; we're a dynamic team of innovators and strategists dedicated to redefining the way businesses interact with technology.
@@ -43,7 +42,7 @@ const WhoWeAre = () => {
                 </p>
                 <div className="about-btn">
                   <Link href="/about">
-                    <a className="default-btn">Know More About Us</a>
+                    <a className="default-btn default-btn1">Know More About Us</a>
                   </Link>
                 </div>
               </div>

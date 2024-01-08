@@ -65,7 +65,7 @@ Default CSS
 =================================================*/
 :root {
   --main-font-family: "Open Sans", sans-serif;
-  --heading-font-family: "Jost", sans-serif;
+  --heading-font-family:'Montserrat', sans-serif;
   --monoton-font-family: "Monoton", cursive;
   --main-color: #0966ad;
   --optional-color: #3e019a;
@@ -182,7 +182,7 @@ Default Btn CSS
   padding: 15.8px 35px;
   text-align: center;
   // color: var(--black-color) !important;
-  color: #ffffff;
+  color: #0966ad;
   font-size: var(--font-size);
   font-weight: 600;
   transition: var(--transition);
@@ -192,7 +192,7 @@ Default Btn CSS
   position: relative;
   border-radius: 10px;
   z-index: 0;
-  background: var(--btn-gradient-color);
+  background: #fff;
   box-shadow: none;
   overflow: hidden;
   white-space: nowrap;
@@ -223,6 +223,27 @@ Default Btn CSS
       transform-origin: bottom center;
     }
   }
+}
+
+.default-btn1{
+  background: #0966ad;
+  border: 1px solid #0966ad;
+  color: #fff;
+
+  &:before {
+    background-color: #ffffff;
+  }
+ 
+}
+.default-btn1:hover {
+  color: #0966ad;
+  border: 1px solid #0966ad;
+  background: #ffffff;
+}
+.default-btn1:hover:before {
+  transition: transform 1s;
+  transform: translateX(-45%) translateY(0) scale(1);
+  transform-origin: bottom center;
 }
 
 /*================================================

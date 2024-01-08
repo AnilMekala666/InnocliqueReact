@@ -23,47 +23,9 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consetetur sadi scing elitr sed
-                  diam nonumy.
+                Innoclique: Your partner in technological evolution. Together, let's redefine the boundaries of what's possible
                 </p>
-
                 <ul className="widget-social">
-                  <li>
-                    <a
-                      href="https://www.facebook.com/EnvyTheme"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="ri-facebook-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://twitter.com/?lang=en"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="ri-twitter-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.youtube.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="ri-youtube-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://vimeo.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="ri-vimeo-fill"></i>
-                    </a>
-                  </li>
                   <li>
                     <a
                       href="https://www.instagram.com/"
@@ -98,6 +60,11 @@ const Footer = () => {
 
                 <ul className="quick-links">
                   <li>
+                    <Link href="/Home">
+                      <a>Home</a>
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/about">
                       <a>About Us</a>
                     </Link>
@@ -109,12 +76,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/pricing">
-                      <a>Pricing</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/projects/projects">
-                      <a>Projects</a>
+                      <a>Blog</a>
                     </Link>
                   </li>
                 </ul>
@@ -158,27 +120,22 @@ const Footer = () => {
 
             <div className="col-lg-3 col-md-6">
               <div
-                className="single-footer-widget"
-                data-aos="fade-up"
-                data-aos-delay="80"
-                data-aos-duration="800"
-                data-aos-once="true"
-              >
-                <h3>Subscribe Newsletter</h3>
-
-                <form className="newsletter-form">
-                  <input
-                    type="email"
-                    className="input-newsletter"
-                    placeholder="Enter your email"
-                    name="EMAIL"
-                    required
-                  />
-
-                  <button type="submit" className="default-btn">
-                    Subscribe
-                  </button>
-                </form>
+                  className="single-footer-widget ps-5"
+                  data-aos="fade-up"
+                  data-aos-delay="60"
+                  data-aos-duration="600"
+                  data-aos-once="true"
+                >
+                  <h3>Contact Us</h3>
+                  <strong className="text-white">Head Office</strong>
+                  <p className=" mb-3">Level 05, office-03, SLN Terminus, Survey No:133, Gachibowli, Hyderabad.</p>
+                  <strong className="text-white mb-3">Branch Office:</strong>
+                  <p className="mb-2">No: 396, 23rd Main BTM, 2nd Stage Bangalore, 560076.</p>
+                  <strong className="text-white">Phone:</strong>
+                  <p className="mb-2">+91 9849070179</p>
+                  <strong className="text-white">Email:
+                  <p><a className="text-white" href="#">info@innoclique.com</a></p></strong>
+                  
               </div>
             </div>
           </div>
@@ -188,16 +145,16 @@ const Footer = () => {
           <div className="container">
             <div className="copyright-area-content">
               <p>
-                {/* &copy; Stax is Proudly Owned by {' '} */}
-                Innoclique: Your partner in technological evolution. Together, let's redefine the boundaries of what's possible.
-
-                <a
-                  href="https://envytheme.com/"
+                Copyrights &copy; 2021 <a
+                  href="https://Innoclique.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  EnvyTheme
-                </a>
+                  Innoclique
+                </a> Cognitive Technologies Pvt. Ltd. All Rights Reserved Copyright {' '}
+                
+
+                
               </p>
             </div>
           </div>

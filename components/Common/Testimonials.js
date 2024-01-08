@@ -4,7 +4,7 @@ import Link from "next/link";
 const Testimonials = () => {
   return (
     <>
-      <div className="testimonials-area ptb-100">
+      <div className="testimonials-area ptb-100 d-none">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">

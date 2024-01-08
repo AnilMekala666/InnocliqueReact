@@ -3,7 +3,7 @@ import React from "react";
 const WhoWeAre = () => {
   return (
     <>
-      <div className="about-area ptb-100">
+      <div className="about-area ptb-100 border-top">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
