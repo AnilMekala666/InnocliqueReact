@@ -81,9 +81,7 @@ const ServiceSlider = () => {
                       <p>
                         "Pioneering with Precision" Explore the frontier of
                         technology with our AI, automation, and custom software
-                        solutions. We're dedicated to transforming your business
-                        challenges into innovative success stories.Engage Now:
-                        "Innovate Today →"...
+                        solutions.
                       </p>
                       <Link href="/services/service-details">
                         <a className="services-btn">Innovate Today</a>
@@ -113,9 +111,7 @@ const ServiceSlider = () => {
                       <p>
                         "Navigating Complexity, Delivering Clarity "Our
                         strategic consulting and comprehensive solutions
-                        demystify the complexities of IT. Let us guide your
-                        technology journey with insight, experience, and
-                        tailored strategies.Discover How: "Strategize Now →"...
+                        demystify the complexities of IT.
                       </p>
                       <Link href="/services/service-details">
                         <a className="services-btn">View More</a>
@@ -145,9 +141,7 @@ const ServiceSlider = () => {
                       <p>
                         "Empower Your Team, Elevate Your Potential " Bridge the
                         talent gap with our strategic staffing and team
-                        extension services. Access the expertise needed to
-                        propel your projects and achieve your business
-                        objectives. Connect Today: "Enhance Your Team →"...
+                        extension services.
                       </p>
                       <Link href="/services/service-details">
                         <a className="services-btn">View More</a>
@@ -176,10 +170,7 @@ const ServiceSlider = () => {
                       </h3>
                       <p>
                         "Efficiency Enhanced, Costs Contained" Embrace
-                        operational excellence with our managed services. From
-                        infrastructure management to ongoing support, we ensure
-                        your business runs smoothly at reduced costs.Learn More:
-                        "Optimize Now →""...
+                        operational excellence with our managed services.
                       </p>
                       <Link href="/services/service-details">
                         <a className="services-btn">View More</a>
