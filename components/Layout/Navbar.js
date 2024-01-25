@@ -46,7 +46,7 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link href="/">
                   <a className="navbar-brand">
-                    <img src="../images/logo.png" alt="Site logo" />
+                    <img src="/images/logo.png" alt="Site logo" />
                   </a>
                 </Link>
 
