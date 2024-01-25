@@ -8,7 +8,7 @@ const TeamMember = () => {
           <div className="section-title section-style-two">
             <div className="section-bg-text">TEAM</div>
             <span>TEAM MEMBER</span>
-            <h2>Our Expert IT Consultants</h2>
+            <h2>Our Leadership Team</h2>
             <p>
               We are leading technology solutions providing company all over the
               world doing over 40 years lorem ipsum dolor sit amet.
@@ -21,17 +21,7 @@ const TeamMember = () => {
                 <div className="team-image" data-tilt>
                   <img src="/images/team/team-1.png" alt="image" />
 
-                  <ul className="team-social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/Innoclique-Cognitive-Technologies-Pvt-Ltd-358022938247087/?modal=admin_todo_tour"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-
+                  <ul className="team-social text-center">
                     <li>
                       <a
                         href="https://www.linkedin.com/in/nkprofile"
@@ -45,8 +35,9 @@ const TeamMember = () => {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3 className="text-dark">Naga Krishna Changalasetti</h3>
-                  <span>CEO</span>
+                  <h3 className="text-dark text-left">NK Changalasetti <span>CEO</span></h3>
+                  <p>Over 23 years in product engineering, NK has a robust technical background in R&D</p>
+                  <a href="/team1/">Read More</a>
                 </div>
               </div>
             </div>
@@ -56,16 +47,7 @@ const TeamMember = () => {
                 <div className="team-image" data-tilt>
                   <img src="/images/team/team-2.png" alt="image" />
 
-                  <ul className="team-social">
-                    <li>
-                      <a
-                        href="#"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
+                  <ul className="team-social text-center">
 
                     <li>
                       <a
@@ -79,8 +61,9 @@ const TeamMember = () => {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3 className="text-dark">Rambabu Gandla</h3>
-                  <span>COO</span>
+                  <h3 className="text-dark">Rambabu Gandla <span>COO</span></h3>
+                  <p>Rambabu Gandla has over 20 years of experience in Enterprise Solutions and Architecture. </p>
+                  <a href="/team2/">Read More</a>
                 </div>
               </div>
             </div>

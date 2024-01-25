@@ -79,7 +79,7 @@ const ServiceSlider = () => {
                         </Link>
                       </h3>
                       <p>
-                        "Pioneering with Precision" Explore the frontier of
+                        <i>Pioneering with Precision</i>- Explore the frontier of
                         technology with our AI, automation, and custom software
                         solutions.
                       </p>
@@ -109,12 +109,12 @@ const ServiceSlider = () => {
                         </Link>
                       </h3>
                       <p>
-                        "Navigating Complexity, Delivering Clarity "Our
+                        <i>Navigating Complexity, Delivering Clarity</i>- Our
                         strategic consulting and comprehensive solutions
                         demystify the complexities of IT.
                       </p>
                       <Link href="/services/service-details">
-                        <a className="services-btn">View More</a>
+                        <a className="services-btn">Strategize Now</a>
                       </Link>
                     </div>
                   </div>
@@ -139,12 +139,12 @@ const ServiceSlider = () => {
                         </Link>
                       </h3>
                       <p>
-                        "Empower Your Team, Elevate Your Potential " Bridge the
+                        <i>Empower Your Team, Elevate Your Potential</i>- Bridge the
                         talent gap with our strategic staffing and team
                         extension services.
                       </p>
                       <Link href="/services/service-details">
-                        <a className="services-btn">View More</a>
+                        <a className="services-btn">Enhance Your Team</a>
                       </Link>
                     </div>
                   </div>
@@ -169,11 +169,11 @@ const ServiceSlider = () => {
                         </Link>
                       </h3>
                       <p>
-                        "Efficiency Enhanced, Costs Contained" Embrace
+                        <i>Efficiency Enhanced, Costs Contained</i>- Embrace
                         operational excellence with our managed services.
                       </p>
                       <Link href="/services/service-details">
-                        <a className="services-btn">View More</a>
+                        <a className="services-btn">Optimize Now</a>
                       </Link>
                     </div>
                   </div>

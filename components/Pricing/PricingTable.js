@@ -4,7 +4,7 @@ import Link from "next/link";
 const PricingTable = () => {
   return (
     <>
-      <div className="pricing-area with-black-background pt-100 pb-75">
+      <div className="pricing-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
             <span>PRICING</span>
@@ -19,124 +19,13 @@ const PricingTable = () => {
 
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6">
-              <div
-                className="single-pricing-card"
-                data-aos="fade-up"
-                data-aos-delay="70"
-                data-aos-duration="1000"
-                data-aos-once="true"
-              >
-                <h3>Startup</h3>
-                <div className="price">
-                  $19 <span>/ month</span>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consetetur sadi scing elitr sed
-                  diam nonumy eirmod.
-                </p>
-
-                <ul className="pricing-list">
-                  <li>
-                    <i className="ri-check-fill"></i> Lorem ipsum dolor.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Sit amet consetetur set a
-                    ledip.
-                  </li>
-                </ul>
-                <div className="pricing-btn">
-                  <Link href="/contact">
-                    <a className="default-btn">Choose Plan</a>
-                  </Link>
-                </div>
-              </div>
+              
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div
-                className="single-pricing-card"
-                data-aos="fade-up"
-                data-aos-delay="80"
-                data-aos-duration="1100"
-                data-aos-once="true"
-              >
-                <h3>Basic</h3>
-                <div className="price">
-                  $49 <span>/ month</span>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consetetur sadi scing elitr sed
-                  diam nonumy eirmod.
-                </p>
-
-                <ul className="pricing-list">
-                  <li>
-                    <i className="ri-check-fill"></i> Lorem ipsum dolor.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Sit amet consetetur set a
-                    ledip.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Lorems Sit ledip ipsum
-                    dolor.
-                  </li>
-                </ul>
-                <div className="pricing-btn">
-                  <div className="pricing-btn">
-                    <Link href="/contact">
-                      <a className="default-btn">Choose Plan</a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="most-popular">
-                  <span>Most Popular</span>
-                </div>
-              </div>
+             
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="single-pricing-card"
-                data-aos="fade-up"
-                data-aos-delay="90"
-                data-aos-duration="1200"
-                data-aos-once="true"
-              >
-                <h3>Advanced</h3>
-                <div className="price">
-                  $79 <span>/ month</span>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consetetur sadi scing elitr sed
-                  diam nonumy eirmod.
-                </p>
-
-                <ul className="pricing-list">
-                  <li>
-                    <i className="ri-check-fill"></i> Lorem ipsum dolor.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Sit amet consetetur set a
-                    ledip.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Lorems Sit ledip ipsum
-                    dolor.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Lorem ipsum dolor.
-                  </li>
-                </ul>
-                <div className="pricing-btn">
-                  <div className="pricing-btn">
-                    <Link href="/contact">
-                      <a className="default-btn">Choose Plan</a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 
