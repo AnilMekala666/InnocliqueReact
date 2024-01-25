@@ -26,7 +26,7 @@ const Footer = () => {
                 Innoclique: Your partner in technological evolution. Together, let's redefine the boundaries of what's possible
                 </p>
                 <ul className="widget-social">
-                  <li>
+                  {/* <li>
                     <a
                       href="https://www.instagram.com/"
                       target="_blank"
@@ -34,7 +34,7 @@ const Footer = () => {
                     >
                       <i className="ri-instagram-line"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="https://www.linkedin.com/company/innoclique-congitive-technologies-pvt-ltd/posts/?feedView=all"
@@ -99,7 +99,7 @@ const Footer = () => {
                       <a>Contact Us</a>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/faq">
                       <a>FAQ</a>
                     </Link>
@@ -108,7 +108,7 @@ const Footer = () => {
                     <Link href="/terms-of-service">
                       <a>Terms of Service</a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/privacy-policy">
                       <a>Privacy Policy</a>
@@ -128,9 +128,8 @@ const Footer = () => {
                 >
                   <h3>Contact Us</h3>
                   <strong className="text-white">Head Office</strong>
-                  <p className=" mb-3">Level 05, office-03, SLN Terminus, Survey No:133, Gachibowli, Hyderabad.</p>
-                  <strong className="text-white mb-3">Branch Office:</strong>
-                  <p className="mb-2">No: 396, 23rd Main BTM, 2nd Stage Bangalore, 560076.</p>
+                  <p className=" mb-3">Co-Working Space, 2-91/12/4 NR, Plot no:4, Doc Bhavan, 5th floor, Kondapur, Hyderabad - 500081</p>
+                  
                   <strong className="text-white">Phone:</strong>
                   <p className="mb-2">+91 9849070179</p>
                   <strong className="text-white">Email:
@@ -145,7 +144,7 @@ const Footer = () => {
           <div className="container">
             <div className="copyright-area-content">
               <p>
-                Copyrights &copy; 2021 <a
+                Copyrights &copy; 2024 <a
                   href="https://Innoclique.com/"
                   target="_blank"
                   rel="noreferrer"

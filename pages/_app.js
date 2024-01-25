@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          Stax - React Next.js IT Services & Startup Template
+          INNOCLIQUE
         </title>
         <meta 
           name="viewport" 

@@ -180,6 +180,7 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: 700;
 }
+h2 { color: #000;}
 .h1:last-child,
 .h2:last-child,
 .h3:last-child,
@@ -478,7 +479,7 @@ Main Slides Area CSS
   opacity: 1;
 }
 .home-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background: #0589c9;
   width: 20px;
   border-radius: 30px;
 }
@@ -896,6 +897,7 @@ About Area CSS
   font-size: 42px;
   margin-bottom: 15px;
   line-height: 1.4;
+  color: #000;
   position: relative;
 }
 .about-content h3 b {
@@ -1393,9 +1395,10 @@ Choose Area CSS
 .single-choose-card .choose-content h3 {
   font-size: 22px;
   margin-bottom: 15px;
+  
 }
 .single-choose-card .choose-content h3 a {
-  color: var(--black-color);
+  color: #000;
 }
 .single-choose-card:hover .choose-content h3 a {
   color: var(--main-color);
@@ -2498,7 +2501,7 @@ Blog Area CSS
   filter: blur(2px);
 }
 .blog-card:hover .blog-content .date {
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background: #0966ad;
   color: var(--white-color);
 }
 .blog-card:hover .blog-content h3 a {
@@ -2523,7 +2526,7 @@ Blog Area CSS
   opacity: 1;
 }
 .blog-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background:#0966ad;
   width: 20px;
   border-radius: 30px;
 }
@@ -3158,6 +3161,7 @@ Skill Area CSS
   margin-bottom: 15px;
   line-height: 1.4;
   position: relative;
+  color: #000;
 }
 .skill-content h3 .overlay {
   position: absolute;
@@ -3431,6 +3435,7 @@ Talk Area CSS
   margin-bottom: 15px;
   line-height: 1.4;
   position: relative;
+  color: #000;
 }
 .talk-content h3 b {
   background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);

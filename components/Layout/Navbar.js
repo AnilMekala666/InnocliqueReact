@@ -68,7 +68,7 @@ const Navbar = () => {
                 <div className={classOne} id="navbarSupportedContent">
                   <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <Link href="#">
+                      <Link href="/">
                         <a className="nav-link">
                           Home
                         </a>
@@ -95,7 +95,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                      <a href="#" className="nav-link">
+                      <a href="/about" className="nav-link">
                         About Us
                       </a>
                       {/* <ul className="dropdown-menu">
@@ -423,7 +423,7 @@ const Navbar = () => {
               <Link href="/">
                 <a>
                   <img
-                    src="/images/black-logo.png"
+                    src="/images/blue_logo.png"
                     alt="image"
                   />
                 </a>
@@ -431,14 +431,14 @@ const Navbar = () => {
               <div className="sidebar-content">
                 <h3>About Us</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua.
+                Innoclique is a seasoned product engineering company, 
+                experiences building solutions with end-to-end software 
+                product engineering services. 
                 </p>
 
                 <div className="sidebar-btn">
                   <Link href="/contact">
-                    <a className="default-btn">
+                    <a className="default-btn default-btn1">
                       Let’s Talk
                     </a>
                   </Link>
@@ -451,42 +451,27 @@ const Navbar = () => {
                 <ul className="info-list">
                   <li>
                     <i className="ri-phone-fill"></i>{" "}
-                    <a href="tel:9901234567">+990-123-4567</a>
+                    <a href="tel:9849070179">+91 9849070179</a>
                   </li>
 
                   <li>
                     <i className="ri-mail-line"></i>{" "}
-                    <a href="mailto:stax@gmail.com">stax@gmail.com</a>
+                    <a href="mailto:info@innoclique.com">info@innoclique.com</a>
                   </li>
 
                   <li>
-                    <i className="ri-map-pin-line"></i> 413 North Las Vegas,
-                    NV 89032
+                    <i className="ri-map-pin-line"></i> Co-Working Space, 2-91/12/4 NR, Plot no:4, Doc Bhavan, 5th floor, Kondapur, Hyderabad - 500081
                   </li>
                 </ul>
               </div>
 
               <ul className="sidebar-social-list">
-                <li>
-                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                    <i className="ri-facebook-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
-                    <i className="ri-twitter-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                    <i className="ri-linkedin-fill"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-                    <i className="ri-instagram-fill"></i>
-                  </a>
-                </li>
+              <li>
+                <a href="https://www.linkedin.com/company/innoclique-congitive-technologies-pvt-ltd/posts/?feedView=all" target="_blank" rel="noreferrer">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </li>
+                
               </ul>
             </div>
           </div>

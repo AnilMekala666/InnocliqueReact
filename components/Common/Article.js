@@ -47,7 +47,7 @@ const Article = () => {
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
                         <a>
-                          <img src="/images/blog/blog-1.jpeg" alt="image" />
+                          <img src="/images/blog/blog-1.jpg" alt="image" />
                         </a>
                       </Link>
                     </div>

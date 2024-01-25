@@ -1,6 +1,6 @@
 import React from "react";
 import Link from 'next/link';
-import NavbarTwo from "@/components/Layout/NavbarTwo";
+import Navbar from "@/components/Layout/Navbar";
 import WhoWeAre from "@/components/About/WhoWeAre";
 import Partners from "@/components/Common/Partners";
 import OurGoal from "@/components/About/OurGoal";
@@ -10,11 +10,12 @@ import PricingTable from "@/components/Pricing/PricingTable";
 import ContactForm from "@/components/Common/ContactForm";
 import Article from "@/components/Common/Article";
 import Footer from "@/components/Layout/Footer";
+import TeamMember from "@/components/Common/TeamMember";
 
 export default function About() {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <div className="page-banner-area mt-94" style={{ backgroundImage: `url(/images/page-banner/banner-bg.jpg` }}>
         <div className="container">
@@ -25,7 +26,7 @@ export default function About() {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>About Style One</h2>
+            <h2>About Us</h2>
             <ul>
               <li>
                 <Link href="/">
@@ -40,21 +41,15 @@ export default function About() {
 
       <WhoWeAre />
 
-      <Partners />
-
       <OurGoal />
 
       <div className="bg-with-F5F5F5-color">
-        <WhyChooseUs />
+        <Skills />
       </div>
 
-      <Skills />
-
-      <PricingTable />
+      <TeamMember/>
 
       <ContactForm />
-
-      <Article />
 
       <Footer />
     </>
