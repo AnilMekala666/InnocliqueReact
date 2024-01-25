@@ -13,13 +13,9 @@ const ServicesDetailsContent = () => {
               />
             </div>
             <div className="article-services-content">
-              <h3>Software Development</h3>
+              <h3>Artificial Intelligence & Generative AI</h3>
               <p>
-                Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
-                nonumy eirmod tempor invidunt ut labore dolore magna aliquyam
-                erat sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum steter clita kasd gubergren no sea takimata
-                sanctus est Lorem ipsum dolor sit amet.
+                Harness the power of AI to automate processes, gain insights, and create new opportunities for growth
               </p>
               <p>
                 Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam

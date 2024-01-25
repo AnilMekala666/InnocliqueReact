@@ -10,7 +10,7 @@ const CTO = () => {
               <div className="overview-card">
                 <h3>Call Us</h3>
                 <span>
-                  <a href="tel:9901234567">+990-123-4567</a>
+                  <a href="tel:9901234567">+91 9849070179</a>
                 </span>
 
                 <div className="overview-shape">
@@ -23,7 +23,7 @@ const CTO = () => {
               <div className="overview-card">
                 <h3>Email Us</h3>
                 <span>
-                  <a href="mailto:hellostax@gmail.com">hellostax@gmail.com</a>
+                  <a href="mailto:info@innoclique.com">info@innoclique.com</a>
                 </span>
 
                 <div className="overview-shape">
@@ -48,7 +48,7 @@ const CTO = () => {
             <div className="col-lg-3 col-md-6">
               <div className="overview-card">
                 <h3>Visit Us</h3>
-                <span>413 North Las Vegas, NV 89032</span>
+                <span>PT.No:4, DOC Bhavan, Kondapur, Hyd-81 </span>
 
                 <div className="overview-shape">
                   <img src="/images/overview/overview-shape.png" alt="image" />

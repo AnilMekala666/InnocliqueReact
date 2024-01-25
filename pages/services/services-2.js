@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import NavbarTwo from "@/components/Layout/NavbarTwo";
+import Navbar from "@/components/Layout/Navbar";
 import AllServicesCardStyle2 from "@/components/Services/AllServicesCardStyle2";
 import ContactForm from "@/components/Common/ContactForm";
 import Footer from "@/components/Layout/Footer";
@@ -8,7 +8,7 @@ import Footer from "@/components/Layout/Footer";
 export default function Services2() {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <div
         className="page-banner-area mt-94"
@@ -22,7 +22,7 @@ export default function Services2() {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>Services Style Two</h2>
+            <h2>Services</h2>
             <ul>
               <li>
                 <Link href="/">

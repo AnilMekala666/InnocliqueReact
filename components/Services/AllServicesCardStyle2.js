@@ -9,17 +9,16 @@ const AllServicesCardStyle2 = () => {
           <div className="section-title">
             <span>SERVICES</span>
             <h2>
-              We Provide the Best Quality <b>Services</b>
+            Tailored Solutions to Propel Your Business
             </h2>
             <p>
-              We are technology solutions providing company all over the world
-              doing over 40 years. lorem ipsum dolor sit amet.
+            At Innoclique, we offer a comprehensive suite of services designed to address the multifaceted needs of modern business.
             </p>
           </div>
 
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6">
-              <div className="services-item">
+              <div className="services-item w-auto">
                 <div className="services-image">
                   <Link href="/services/service-details">
                     <a>
@@ -30,11 +29,11 @@ const AllServicesCardStyle2 = () => {
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Database Administrator</a>
+                      <a>Artificial Intelligence & Generative AI</a>
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
+                  Harness the power of AI to automate processes, gain insights, and create new opportunities for growth
                   </p>
                   <Link href="/services/service-details">
                     <a className="services-btn">View More</a>
@@ -44,7 +43,7 @@ const AllServicesCardStyle2 = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="services-item">
+              <div className="services-item w-auto">
                 <div className="services-image">
                   <Link href="/services/service-details">
                     <a>
@@ -55,11 +54,11 @@ const AllServicesCardStyle2 = () => {
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Software Development</a>
+                      <a>Hyper Automation</a>
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
+                  Integrate advanced technologies like RPA, machine learning, and analytics to streamline operations and enhance efficiency.
                   </p>
                   <Link href="/services/service-details">
                     <a className="services-btn">View More</a>
@@ -69,7 +68,7 @@ const AllServicesCardStyle2 = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="services-item">
+              <div className="services-item w-auto">
                 <div className="services-image">
                   <Link href="/services/service-details">
                     <a>
@@ -80,11 +79,11 @@ const AllServicesCardStyle2 = () => {
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>App Development</a>
+                      <a>Data Analytics</a>
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
+                  Turn data into actionable insights to make informed decisions, understand customer behavior, and drive strategic initiatives.
                   </p>
                   <Link href="/services/service-details">
                     <a className="services-btn">View More</a>
@@ -94,7 +93,7 @@ const AllServicesCardStyle2 = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="services-item">
+              <div className="services-item w-auto">
                 <div className="services-image">
                   <Link href="/services/service-details">
                     <a>
@@ -105,7 +104,7 @@ const AllServicesCardStyle2 = () => {
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Web Development</a>
+                      <a>Web and Mobile App Dev</a>
                     </Link>
                   </h3>
                   <p>
@@ -119,7 +118,7 @@ const AllServicesCardStyle2 = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="services-item">
+              <div className="services-item w-auto">
                 <div className="services-image">
                   <Link href="/services/service-details">
                     <a>
@@ -130,11 +129,11 @@ const AllServicesCardStyle2 = () => {
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Analytic Solutions</a>
+                      <a>End-to-End Infrastructure Services</a>
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
+                  From setup to management, we handle all your infrastructure needs, ensuring..
                   </p>
                   <Link href="/services/service-details">
                     <a className="services-btn">View More</a>
@@ -144,7 +143,7 @@ const AllServicesCardStyle2 = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="services-item">
+              <div className="services-item w-auto">
                 <div className="services-image">
                   <Link href="/services/service-details">
                     <a>
@@ -155,7 +154,7 @@ const AllServicesCardStyle2 = () => {
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Product Design</a>
+                      <a>Strategic Staffing Solutions</a>
                     </Link>
                   </h3>
                   <p>

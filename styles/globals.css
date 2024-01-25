@@ -117,7 +117,7 @@ p {
   font-weight: 500;
   font-family: var(--main-font-family);
   font-size: var(--font-size);
-  text-align: justify;      
+  text-align: left;      
   /* text-align-last: justify;  */
 }
 p:last-child {
@@ -1155,11 +1155,13 @@ Services Area CSS
   margin-bottom: 0;
 }
 .services-item .services-content .services-btn {
-  background: var(--btn-gradient-color);
+  /* background: var(--btn-gradient-color); 
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
+  -webkit-text-fill-color: transparent;*/
+  font-weight: 600;
+  color: #fcfeff;
   margin-top: 20px;
+  text-decoration: underline;
   font-family: var(--heading-font-family);
   transition: var(--transition);
   position: relative;
@@ -1204,7 +1206,7 @@ Services Area CSS
   transition: var(--transition);
 }
 .services-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: var(--btn-gradient-color);
+  background: #ffffff;
   width: 20px;
   border-radius: 30px;
 }
@@ -3526,7 +3528,7 @@ Team Area CSS
 
 .single-team-card {
   margin-bottom: 25px;
-  text-align: center;
+  text-align: left;
 }
 .single-team-card .team-image {
   position: relative;
@@ -7505,3 +7507,7 @@ Buy Now Btn
   background-color: var(--main-color);
   color: #fff;
 }/*# sourceMappingURL=globals.css.map */
+
+/* TeamContent */
+.readmoreshow { }
+

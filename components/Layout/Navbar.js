@@ -46,7 +46,7 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link href="/">
                   <a className="navbar-brand">
-                    <img src="../images/logo.png" alt="Site logo" />
+                    <img src="/images/logo.png" alt="Site logo" />
                   </a>
                 </Link>
 
@@ -132,10 +132,10 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                      <a href="#" className="nav-link">
-                        Services <i className="ri-arrow-down-s-line"></i>
+                      <a href="/services/services-2" className="nav-link">
+                        Services
                       </a>
-                      <ul className="dropdown-menu">
+                      {/* <ul className="dropdown-menu">
                         <li className="nav-item">
                           <Link href="#" activeClassName="active">
                             <a className="nav-link">Artificial Intelligence</a>
@@ -164,7 +164,7 @@ const Navbar = () => {
                             <a className="nav-link">Application Development</a>
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
 
                     {/* <li className="nav-item">

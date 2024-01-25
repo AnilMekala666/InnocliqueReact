@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import NavbarTwo from "@/components/Layout/NavbarTwo";
+import Navbar from "@/components/Layout/Navbar";
 import ServicesDetailsContent from "@/components/Services/ServicesDetailsContent";
 import ContactForm from "@/components/Common/ContactForm";
 import ServiceSlider from "@/components/Services/ServiceSlider";
@@ -10,7 +10,7 @@ import Footer from "@/components/Layout/Footer";
 export default function ServiceDetails() {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <div
         className="page-banner-area mt-94"
@@ -45,7 +45,7 @@ export default function ServiceDetails() {
         <ServiceSlider />
       </div>
 
-      <CTO />
+      {/* <CTO /> */}
 
       <Footer />
     </>
