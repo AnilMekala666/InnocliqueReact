@@ -28,7 +28,7 @@ const ServiceSlider = () => {
                 provide is aimed at enhancing your operations and driving your business forward.
                 </p>
                 <div className="services-section-btn">
-                  <Link href="/services/services">
+                  <Link href="/services/services-2">
                     <a className="default-btn">Explore All Services</a>
                   </Link>
                 </div>
