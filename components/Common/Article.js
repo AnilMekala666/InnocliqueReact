@@ -2,6 +2,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
 import Link from "next/link";
+import BlogModal from "./BlogModal";
+
 
 
 const Article = ({ blogdata }) => {
@@ -16,6 +18,8 @@ const Article = ({ blogdata }) => {
               <strong style={{ fontWeight: '400' }}>Read Our Blog To Get All Recent Tech</strong> News
             </h2>
           </div>
+
+          <BlogModal/>
 
           <Swiper
             slidesPerView={1}
