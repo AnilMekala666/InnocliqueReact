@@ -1,13 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Navbar from "@/components/Layout/Navbar";
-import ServicesDetailsContent from "@/components/Services/ServicesDetailsContent";
 import ContactForm from "@/components/Common/ContactForm";
 import ServiceSlider from "@/components/Services/ServiceSlider";
-// import CTO from "@/components/Common/CTO";
 import Footer from "@/components/Layout/Footer";
+import Hyperautomationcontent from "@/components/Services/HyperAutomationContent";
 
-export default function ServiceDetails() {
+export default function hyperautomationservice() {
   return (
     <>
       <Navbar />
@@ -31,18 +30,19 @@ export default function ServiceDetails() {
                   <a>Home</a>
                 </Link>
               </li>
-              <li> 
-                <Link href="/services/services-2">
+              <li>
+              <Link href="/services/services-2">
                   <a>Services</a>
                 </Link>
                 </li>
-              <li>AI</li>
+              <li>Hyper Automation</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <ServicesDetailsContent />
+      
+      <Hyperautomationcontent/>
 
       <ContactForm />
 
