@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
 import Link from "next/link";
+import CreateBlog from "./CreateBlog";
 
 const Article = () => {
   return (
@@ -9,10 +10,14 @@ const Article = () => {
       <div className="blog-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <span>ARTICLE</span>
+            <span>ARTICLE </span>
             <h2>
-              <strong style={{ fontWeight: '400' }}>Read Our Blog To Get All Recent Tech</strong> News
+              <strong style={{ fontWeight: "400" }}>
+                Read Our Blog To Get All Recent Tech
+              </strong>{" "}
+              News
             </h2>
+            <CreateBlog />
           </div>
 
           <Swiper
@@ -57,13 +62,13 @@ const Article = () => {
                       <div className="date">8th December, 2023</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>
-                            Revolutionizing Small Industries
-                          </a>
+                          <a>Revolutionizing Small Industries</a>
                         </Link>
                       </h3>
                       <p>
-                        In today's fast-paced business world, small industries across emerging markets such as the India, UAE, Africa, and Latin America are facing a new paradigm.
+                        In today's fast-paced business world, small industries
+                        across emerging markets such as the India, UAE, Africa,
+                        and Latin America are facing a new paradigm.
                       </p>
 
                       <Link href="/blog/single-blog">
@@ -92,11 +97,15 @@ const Article = () => {
                       <div className="date">7th December, 2023</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>Elevating Business with Smart Automation Solutions</a>
+                          <a>
+                            Elevating Business with Smart Automation Solutions
+                          </a>
                         </Link>
                       </h3>
                       <p>
-                      Welcome to the world of Innoclique, where we transform the complexities of business operations into streamlined, efficient processes
+                        Welcome to the world of Innoclique, where we transform
+                        the complexities of business operations into
+                        streamlined, efficient processes
                       </p>
                       <Link href="https://www.linkedin.com/pulse/innoclique-elevating-business-smart-gjtac%3FtrackingId=TRmKIf3lkBu3O1ZSIOIDsw%253D%253D/?trackingId=TRmKIf3lkBu3O1ZSIOIDsw%3D%3D">
                         <a className="blog-btn">View More</a>
