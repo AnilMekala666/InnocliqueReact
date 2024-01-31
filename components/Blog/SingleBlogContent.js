@@ -7,7 +7,8 @@ const SingleBlogContent = () => {
       <div className="blog-details-area pt-100 pb-100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 col-md-12">
+            {/* <div className="col-lg-8 col-md-12"> */}
+            <div className="col-lg-12 col-md-12">
               <div className="blog-details-desc">
                 <div className="article-image">
                   <img

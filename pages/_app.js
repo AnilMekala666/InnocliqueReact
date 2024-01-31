@@ -23,7 +23,8 @@ import Head from "next/head";
 import ScrollToTop from "@/components/Layout/ScrollToTop";
 import RtlSidebar from "@/components/Layout/RtlSidebar";
 
-function MyApp({ Component, pageProps }) {
+
+function MyApp({ Component, pageProps }) { // Cannot find module 'sass'
   React.useEffect(() => {
     AOS.init();
   }, []);

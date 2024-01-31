@@ -281,60 +281,13 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </li> */}
-
+                    
                     <li className="nav-item">
-                      <a href="#" className="nav-link">
-                        Blog <i className="ri-arrow-down-s-line"></i>
+                      <a href="/blog/blog" className="nav-link">
+                        Blogs
                       </a>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/blog/blog" activeClassName="active">
-                            <a className="nav-link">Blog Style - 1</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/blog/blog-2" activeClassName="active">
-                            <a className="nav-link">Blog Style - 2</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/blog/blog-right-sidebar"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Blog Right Sidebar</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <a href="#" className="nav-link">
-                            Single Post
-                            <i className="ri-arrow-down-s-line"></i>
-                          </a>
-                          <ul className="dropdown-menu">
-                            <li className="nav-item">
-                              <Link
-                                href="/blog/single-blog"
-                                activeClassName="active"
-                              >
-                                <a className="nav-link">Default</a>
-                              </Link>
-                            </li>
-
-                            <li className="nav-item">
-                              <Link
-                                href="/blog/single-blog-2"
-                                activeClassName="active"
-                              >
-                                <a className="nav-link">With Video</a>
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
+                      </li>
+                   
 
                     {/* <li className="nav-item">
                       <Link href="/pricing" activeClassName="active">
