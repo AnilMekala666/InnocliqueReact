@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import NavbarTwo from '@/components/Layout/NavbarTwo'
+import Navbar from '@/components/Layout/Navbar'
 import CTO from '@/components/Common/CTO'
 import ContactForm from '@/components/Common/ContactForm'
 import Footer from '@/components/Layout/Footer'
@@ -9,7 +9,7 @@ import GoogleMap from '@/components/Common/GoogleMap'
 export default function Contact() {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <div
         className="page-banner-area mt-94"
@@ -36,11 +36,10 @@ export default function Contact() {
         </div>
       </div>
 
-      <CTO />
+      <GoogleMap />
+      {/* <CTO /> */}
 
       <ContactForm />
-
-      <GoogleMap />
 
       <Footer />
     </>
