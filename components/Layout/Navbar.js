@@ -68,8 +68,8 @@ const Navbar = () => {
                 <div className={classOne} id="navbarSupportedContent">
                   <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <Link href="/">
-                        <a className="nav-link">
+                      <Link href="/" activeClassName="active">
+                        <a className="nav-link" >
                           Home
                         </a>
                       </Link>
@@ -95,9 +95,11 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                      <a href="/about" className="nav-link">
+                    <Link href="/about" activeClassName="active">
+                      <a className="nav-link">
                         About Us
                       </a>
+                      </Link>
                       {/* <ul className="dropdown-menu">
                         <li className="nav-item">
                           <Link href="/about" activeClassName="active">
@@ -132,9 +134,11 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                      <a href="/services/services-2" className="nav-link">
+                    <Link href="/services/services-2" activeClassName="active">
+                      <a className="nav-link" >
                         Services
                       </a>
+                      </Link>
                       {/* <ul className="dropdown-menu">
                         <li className="nav-item">
                           <Link href="#" activeClassName="active">
@@ -283,9 +287,11 @@ const Navbar = () => {
                     </li> */}
                     
                     <li className="nav-item">
-                      <a href="/blog/blog" className="nav-link">
+                    <Link href="/blog/blog" activeClassName="active"> 
+                      <a className="nav-link">
                         Blogs
                       </a>
+                      </Link>
                       </li>
                    
 
