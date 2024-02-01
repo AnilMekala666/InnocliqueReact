@@ -35,7 +35,7 @@ const OurGoal = () => {
                       <li class="mb-3"><i class="ri-checkbox-circle-line"></i> <b className="text-dark">Collaboration and Communication:</b> Fostering strong partnerships through open and effective dialogue.</li>
                       <li class="mb-3"><i class="ri-checkbox-circle-line"></i> <b className="text-dark">Clarity and Transparency:</b> Ensuring honesty and openness are at the heart of all interactions.</li>
                       <li class="mb-3"><i class="ri-checkbox-circle-line"></i> <b className="text-dark">Unwavering Integrity:</b> Upholding ethical principles and trustworthiness in every decision.</li>
-                      <li class="mb-3"><i class="ri-checkbox-circle-line"></i> <b className="text-dark">Innovative Solutions:</b>Continuously exploring and implementing groundbreaking technologies.</li>
+                      <li class="mb-3"><i class="ri-checkbox-circle-line"></i> <b className="text-dark">Innovative Solutions:</b> Continuously exploring and implementing groundbreaking technologies.</li>
                     </ul>
                   </div>
                 </div>

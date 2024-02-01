@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
 import Link from "next/link";
-import BlogModal from "./BlogModal";
+// import BlogModal from "./BlogModal";
 
 
 
@@ -19,7 +19,7 @@ const Article = ({ blogdata }) => {
             </h2>
           </div>
 
-          <BlogModal/>
+          {/* <BlogModal/> */}
 
           <Swiper
             slidesPerView={1}
