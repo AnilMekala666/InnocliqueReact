@@ -8,7 +8,7 @@ const RtlSidebar = () => {
 
   return (
     <>
-      <div className={`rtl-sidebar ${isActive ? "" : "active"}`}>
+      {/* <div className={`rtl-sidebar ${isActive ? "" : "active"}`}>
         <div className="setting-btn" onClick={handleToggle}>
           <i className="ri-settings-5-line"></i>
         </div>
@@ -17,7 +17,7 @@ const RtlSidebar = () => {
           <a href="/en">LTR Demo</a>
           <a href="/ar">RTL Demo</a>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
