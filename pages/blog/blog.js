@@ -27,7 +27,7 @@ export default function Blog() {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>Blog Style One</h2>
+            <h2>Blog</h2>
             <ul>
               <li>
                 <Link href="/">

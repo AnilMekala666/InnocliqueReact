@@ -7511,3 +7511,40 @@ Buy Now Btn
 /* TeamContent */
 .article-services-content h4 { color: #000; margin-top: 30px;}
 
+.blog-details-area .article-share {
+  background-color: #f2f1f3;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.blog-details-area .article-share .share-content h4 {
+  margin-bottom: 0;
+  font-size: var(--font-size);
+  font-weight: 700;
+}
+
+.blog-details-area .article-share .share-social {
+  padding: 0;
+  margin-bottom: 0;
+}
+.blog-details-area .article-share .share-social li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 5px;
+}
+.blog-details-area .article-share .share-social li a i {
+  display: inline-block;
+  transition: var(--transition);
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: var(--white-color);
+  color: #9b8dac;
+  font-size: 18px;
+}
+.blog-details-area .article-share .share-social li a i:hover{
+  background: #0966ad;
+  color: var(--white-color);
+}

@@ -7,6 +7,13 @@ import BlogModal from "./BlogModal";
 
 
 const Article = ({ blogdata }) => {
+
+  const truncateDescription = (description) => {
+    const words = description.split(' ');
+    const truncatedWords = words.length > 10 ? words.slice(0, 10).join(' ') + '...' : words.join(' ');
+
+    return truncatedWords;
+  };
   return (
     <>
 
@@ -18,8 +25,6 @@ const Article = ({ blogdata }) => {
               <strong style={{ fontWeight: '400' }}>Read Our Blog To Get All Recent Tech</strong> News
             </h2>
           </div>
-
-          <BlogModal/>
 
           <Swiper
             slidesPerView={1}
@@ -71,7 +76,7 @@ const Article = ({ blogdata }) => {
                           </Link>
                         </h3>
                         <p>
-                          {i.description}
+                         {truncateDescription(i.description)}
                           {/* In today's fast-paced business world, small industries across emerging markets such as the India, UAE, Africa, and Latin America are facing a new paradigm. */}
                         </p>
 
