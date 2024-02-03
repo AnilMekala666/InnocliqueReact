@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
 import Link from "next/link";
-import BlogModal from "./BlogModal";
+import CreateBlog from "./CreateBlog";
 
 
 
@@ -20,10 +20,14 @@ const Article = ({ blogdata }) => {
       <div className="blog-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <span>ARTICLE</span>
+            <span>ARTICLE </span>
             <h2>
-              <strong style={{ fontWeight: '400' }}>Read Our Blog To Get All Recent Tech</strong> News
+              <strong style={{ fontWeight: "400" }}>
+                Read Our Blog To Get All Recent Tech
+              </strong>{" "}
+              News
             </h2>
+            <CreateBlog />
           </div>
 
           <Swiper

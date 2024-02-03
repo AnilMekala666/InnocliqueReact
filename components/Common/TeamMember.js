@@ -76,15 +76,17 @@ const TeamMember = () => {
                   <h3 className="text-dark text-left">NK Changalasetti <span>CEO</span></h3>
                   <p>
                     {showMore
-                      ? <div>
-                      <p>{longDescription1}</p>
-                      <p>{longDescription2}</p>
-                    </div>
+                      ? (
+                        <div>
+                          <p>{longDescription1}</p>
+                          <p>{longDescription2}</p>
+                        </div>
+                      )
                       : 'Boasts over 23 years of experience in product development, with a strong technical background focused on product research and development, enterprise solutions.'}
                   </p>
-                  <a onClick={showMoreHandler}>
+                  <button className="btn btn-primary" onClick={showMoreHandler}>
                     {showMore ? 'Read Less' : 'Read More'}
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -114,15 +116,15 @@ const TeamMember = () => {
                   <p>
                     {showMore1
                       ? <div>
-                      <p>{longDescription3}</p>
-                      <p>{longDescription4}</p>
-                      <p>{longDescription5}</p>
-                    </div>
+                        <p>{longDescription3}</p>
+                        <p>{longDescription4}</p>
+                        <p>{longDescription5}</p>
+                      </div>
                       : 'Ram with more than 24 years of experience in Enterprise Solutions and Architecture, Ram is a skilled and results-driven person with a proven track record of driving'}
                   </p>
-                  <a onClick={showMoreHandler1}>
+                  <button className="btn btn-primary" onClick={showMoreHandler1}>
                     {showMore1 ? 'Read Less' : 'Read More'}
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import NavbarTwo from "@/components/Layout/NavbarTwo";
+import Navbar from "@/components/Layout/Navbar";
 import KeyFeatures from "@/components/Common/KeyFeatures";
 import AllServicesCard from "@/components/Services/AllServicesCard";
 import ContactForm from "@/components/Common/ContactForm";
@@ -9,7 +9,7 @@ import Footer from "@/components/Layout/Footer";
 export default function Services() {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
       <div
         className="page-banner-area mt-94"

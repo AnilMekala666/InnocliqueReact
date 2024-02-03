@@ -186,7 +186,8 @@ Navbar Area CSS
   right: 0;
   width: 0;
   height: 4.5px;
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  /* background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf); */
+  background: #0966ad;
   transition: all ease 0.5s;
   border-radius: 50px;
 }
