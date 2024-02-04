@@ -17,15 +17,30 @@ import { useState, useEffect } from 'react'
 export default function Home() {
   const [blogdata, setBlogData] = useState([])
 
+  // useEffect(() => {
+  //   fetch('http://localhost:3000/api/getblogs')
+  //     .then(async response => {
+  //       const fetchdata = await response.json()
+  //       console.log(fetchdata.blogsData)
+  //       setBlogData(fetchdata.blogsData)
+  //       console.log(blogdata, "blogdatawithstate")
+  //     })
+  // }, [])
   useEffect(() => {
-    fetch('http://localhost:3000/api/getblogs')
-      .then(async response => {
-        const fetchdata = await response.json()
-        console.log(fetchdata.blogsData)
-        setBlogData(fetchdata.blogsData)
-        console.log(blogdata, "blogdatawithstate")
-      })
-  }, [])
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('http://localhost:3000/api/getblogs');
+        const fetchedData = response.data.blogsData;
+
+        setBlogData(fetchedData);
+        console.log(fetchedData, "blog data with state");
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>

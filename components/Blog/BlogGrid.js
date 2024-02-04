@@ -1,20 +1,27 @@
 import React from "react"
 import Link from "next/link"
 import { useState,useEffect } from "react"
+import axios from 'axios';
 
 
 const BlogGrid = () => {
   const [blogdata, setBlogData] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/getblogs')
-      .then(async response => {
-        const fetchdata = await response.json()
-        console.log(fetchdata.blogsData)
-        setBlogData(fetchdata.blogsData)
-        console.log(blogdata, "blogdatawithstate")
-      })
-  }, [])
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('http://localhost:3000/api/getblogs');
+        const fetchedData = response.data.blogsData;
+
+        setBlogData(fetchedData);
+        console.log(fetchedData, "blog data with state");
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const truncateDescription = (description) => {
     const words = description.split(' ');

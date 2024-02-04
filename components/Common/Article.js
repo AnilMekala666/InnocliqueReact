@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
 import Link from "next/link";
-import CreateBlog from "./CreateBlog";
+
 
 
 
@@ -27,7 +27,6 @@ const Article = ({ blogdata }) => {
               </strong>{" "}
               News
             </h2>
-            <CreateBlog />
           </div>
 
           <Swiper
@@ -55,7 +54,7 @@ const Article = ({ blogdata }) => {
             data-aos-duration="800"
             data-aos-once="true"
           >
-            {blogdata.map((i) => (
+            {blogdata && blogdata.map((i) => (
               <SwiperSlide>
                 <div className="blog-card">
                   <div className="row align-items-center">

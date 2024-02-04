@@ -180,6 +180,7 @@ import Slide from "@mui/material/Slide";
 import TextField from "@mui/material/TextField";
 import dynamic from "next/dynamic";
 const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
+import axios from 'axios';
 import "react-quill/dist/quill.snow.css";
 import IconButton from "@mui/material/IconButton";
 import PhotoCamera from "@mui/icons-material/PhotoCamera";
@@ -245,13 +246,35 @@ const BlogModal = () => {
     setQuillText("");
   };
 
+  const handleCreate = async () => {
+    console.log(quillText);
+  
+    let data = {
+      "heading": heading,
+      "description": quillText,
+      "date": "7th December, 2023"
+    };
+  
+    console.log(data);
+  
+    try {
+      const response = await axios.post('http://localhost:3000/api/postblogs', data, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+  
+      if (response.status === 200) {
+        const result = response.data;
+        console.log('POST request successful:', result);
+      } else {
+        console.error('POST request failed:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
   return (
-    
-      <div style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px", overflow:"hidden", maxHeight:"100vh", margin:"10px" }}>
-        {/* <Button variant="outlined" onClick={handleClickOpen}>
-        Create Blog
-      </Button> */}
-
         <div
           // open={open}
           // TransitionComponent={Transition}
@@ -260,15 +283,13 @@ const BlogModal = () => {
 
           aria-describedby="alert-dialog-slide-description"
         >
-          <div>{"Ceate Blogs here?"}</div>
-          <Divider style={{ fontWeight: "bold", borderWidth: "2px" }} />
           <div>
             <TextField
               label="Heading"
               value={heading}
               onChange={handleHeadingChange}
               fullWidth
-              variant="standard"
+              // variant="outlined"
               style={{ top: "-12px" }}
             />
             <div
@@ -276,8 +297,8 @@ const BlogModal = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                maxWidth: "100%",
-                height: "200px",
+                // maxWidth: "100%",
+                // height: "200px",
                 border: "1px solid #ccc",
                 position: "relative",
                 overflow: "hidden",
@@ -321,12 +342,11 @@ const BlogModal = () => {
               />
             </div>
           </div>
-          <div>
-            <Button onClick={handleClose}>Close</Button>
-            <Button onClick={handleClose}>Create</Button>
+          <div style={{top:"20px"}}>
+            <Button variant="contained" color="primary" onClick={handleCreate}>Create</Button>
           </div>
         </div>
-      </div>
+     
     
   );
 };

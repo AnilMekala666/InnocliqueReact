@@ -1,6 +1,7 @@
 // pages/blog/[id].js
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
+import axios from 'axios';
 
 const SingleBlog = () => {
   const router = useRouter();
@@ -8,18 +9,20 @@ const SingleBlog = () => {
   const [blogData, setBlogData] = useState(null);
 
   useEffect(() => {
-    console.log("ID:", id);
-    if (id) {
-      fetch(`http://localhost:3000/api/blog/${id}`)
-        .then(async (response) => {
-          const fetchData = await response.json();
-          console.log(fetchData);
-          setBlogData(fetchData); // Update state with fetched data
-        })
-        .catch((error) => {
-          console.error("Error fetching blog data:", error);
-        });
-    }
+    const fetchData = async () => {
+      try {
+        if (id) {
+          const response = await axios.get(`http://localhost:3000/api/blog/${id}`);
+          const fetchedData = response.data;
+          console.log(fetchedData);
+          setBlogData(fetchedData); // Update state with fetched data
+        }
+      } catch (error) {
+        console.error('Error fetching blog data:', error);
+      }
+    };
+
+    fetchData();
   }, [id]);
 
   const htmlRender = (data) => {

@@ -4,7 +4,7 @@ const blogSchema = new Schema({
    
     date: {
         type: String,
-        required: true,
+        required: false,
     },
     heading: {
         type: String,
@@ -14,10 +14,10 @@ const blogSchema = new Schema({
         type: String,
         required: true,
     },
-    // image: {
-    //     type: String,
-    //     required: true,
-    // },
+    image: {
+        type: String,
+        required: false,
+    }
     // timestamps: true
 
 })
